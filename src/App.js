@@ -9,7 +9,8 @@ const App = () => {
     return (
         <>
           <Route exact path="/"><Main/></Route>
-          <Route path="/details"><MovieDetail/></Route>
+          <Route exact path="/movie-app"><Main/></Route>
+          <Route path="/movie-app/details"><MovieDetail/></Route>
           <Footer/>
        </>
   );

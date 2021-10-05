@@ -22,7 +22,7 @@ class CardHeader extends React.Component {
   class Button extends React.Component {
     render() {
       return (
-        <Link to={`/details/${this.props.imdbID}`} target="_blank">
+        <Link to={`/movie-app/details/${this.props.imdbID}`} target="_blank">
              <button className="button button-primary">
             <FontAwesomeIcon icon={faAngleRight} /> See more
             </button>

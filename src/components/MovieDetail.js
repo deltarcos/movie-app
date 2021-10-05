@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const MovieDetail = ({ match }) => {
     return (
         
-      <Route path={"/details/:movieId"}>
+      <Route path={"/movie-app/details/:movieId"}>
           <GetDetails/>
       </Route>
     )
