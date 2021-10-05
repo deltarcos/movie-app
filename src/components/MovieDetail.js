@@ -16,7 +16,7 @@ const GetDetails = () => {
     const [ movieDetails, setMovieDetails ] = useState({});
     
     const getMovieDetails = async (s) => {
-        const url = `http://www.omdbapi.com/?apikey=c6746dee&i=${movieId}`;    
+        const url = `https://www.omdbapi.com/?apikey=c6746dee&i=${movieId}`;    
         const resp = await fetch(url);
         const respJson = await resp.json();
     

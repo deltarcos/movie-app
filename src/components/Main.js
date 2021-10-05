@@ -9,7 +9,7 @@ const Main = () => {
     const [s, setS] = useState('marvel');
 
     const getMovieRequest = async (s) => {
-        const url = `http://www.omdbapi.com/?apikey=c6746dee&s=${s}`;
+        const url = `https://www.omdbapi.com/?apikey=c6746dee&s=${s}`;
     
         const resp = await fetch(url);
         const respJson = await resp.json();
